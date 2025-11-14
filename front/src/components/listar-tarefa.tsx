@@ -19,10 +19,10 @@ function ListarTarefas() {
       });
   }
 
-  function alterar(id: string) {
+ function alterar(id: string) {
     console.log(`Id: ${id}`);
     axios
-      .put(`http://localhost:5000/api/tarefas/alterar/{id}`)
+      .put(`http://localhost:5000/api/tarefas/alterar/${id}`)
       .then((resposta) => {
         console.log(resposta.data);
         setTarefas(resposta.data);
