@@ -1,0 +1,18 @@
+### Listar tarefas
+GET http://localhost:5000/api/tarefas/listar
+
+### Cadastrar tarefas
+
+POST http://localhost:5000/api/tarefas/cadastrar
+
+### Alterar tarefa
+
+PUT http://localhost:5000/api/tarefas/alterar/2f1b7dc1-3b9a-4e1a-a389-7f5d2f1c8f3e
+
+### Listar nao concluidas
+
+GET http://localhost:5000/api/tarefas/naoconcluidas
+
+### Listar concluidas
+
+GET http://localhost:5000/api/tarefas/concluidas
